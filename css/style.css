@@ -1,0 +1,288 @@
+/* global */
+.grey {
+    color: #686868;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    color: #595a5a;
+    text-align: center;
+}
+
+.Our-Baking,
+.Our-Location,
+.who-we-are {
+    margin: 60px 60px;
+}
+
+
+/* baker */
+.baker {
+    text-align: center;
+}
+
+/* ---------------------------------------------------------------- */
+
+
+
+
+
+/* welcome-section */
+.welcome-section {
+    height: 100vh;
+    width: 100%;
+    background-image: url('/images/drew-coffman-1872.jpg');
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+/* nav */
+.nav {
+    background-color: transparent;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.nav .baker-icon {
+    width: 15%;
+}
+
+.nav .baker-icon img {
+    width: 100%;
+}
+
+.nav {
+    top: 50%;
+
+}
+
+
+.nav .baker-menu ul {
+    padding: 25px 0px;
+
+}
+
+.nav .baker-menu ul li {
+    list-style-type: none;
+    padding: 0px 10px;
+
+}
+
+.nav .baker-menu ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.welcome-content {
+    color: white;
+    text-transform: capitalize;
+    margin: 100px 50px 50px 50px;
+}
+
+.welcome-content h1 {
+    font-size: 60px;
+    margin: 10px;
+}
+
+.welcome-content p {
+    margin: 25px;
+    font-size: 15px;
+}
+
+#welcome-paragraph {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.learn-more-button {
+    background-color: #A88C6A;
+    height: 50px;
+    width: 110px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 10px 10px;
+}
+
+.contact-us-button {
+    background-color: transparent;
+    border: 2px white solid;
+    height: 50px;
+    width: 110px;
+    border-radius: 5px;
+    color: white;
+    font-size: 10x;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.scroll{
+    height: 50px;
+    width: 30px;
+    /* background-color: pink; */
+    border: 3px solid #A88C6A;
+    border-radius: 70px;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    background-color: #A88C6A;
+    border-radius: 50px;
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    animation: move 2s infinite;
+    
+}
+@keyframes move{
+    0%{
+        top: 0%;
+        opacity: 0%;
+    }
+    100%{
+        top: 50%;
+        opacity: 100%;
+    }
+}
+
+/* ------------------------------------------------------------- */
+
+
+
+
+/* Who we are section */
+
+.who-we-are {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.who-content {
+    width: 40%;
+    text-align: left;
+    padding: 50px;
+
+
+}
+
+.who-content h2 {
+    color: rgb(19, 3, 3);
+    margin: 30px 0px;
+
+}
+
+#who-p {
+    margin: 20px 0px;
+
+}
+
+
+.who-img {
+    width: 45%;
+    padding-right: 50px;
+
+
+}
+
+.who-img img {
+    width: 100%;
+}
+
+.who-content .icon-content .icon .img-icon {
+    width: 35px;
+}
+
+.who-content .icon-content .icon .img-icon img {
+    width: 100%;
+    border: #A88C6A 1px solid;
+    border-radius: 100%;
+}
+
+.icon {
+    height: 50px;
+    text-align: center;
+}
+
+.icon-description {
+    padding: 10px 15px;
+}
+
+/* ---------------------------------------------- */
+
+/* Our location */
+.Our-Location {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Our-Location h2 {
+    margin-bottom: 30px;
+}
+
+.Location-content {
+    width: 49%;
+    padding-left: 20px;
+    padding: 150px 0px;
+}
+
+.Location-image {
+    width: 50%;
+}
+
+.Location-image img {
+    width: 100%;
+    display: block;
+}
+
+/* ======================================================== */
+
+
+
+
+/* Our Baking */
+.Baking-title p {
+    padding: 20px 0px;
+}
+
+.baker-item {
+    width: 30%;
+    padding: 50px 10px;
+}
+
+.baker-item img {
+    width: 100%;
+}
+
+
+/* ================================================= */
+
+
+
+/* footer */
+
+.footer {
+    width: 25%;
+}
